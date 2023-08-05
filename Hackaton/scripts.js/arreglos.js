@@ -1,12 +1,20 @@
 let libros = [ 'Naranja Lima', 'Luna de Pluton', 'Patrones de Diseño'];
 //let notasPrimeraUnidad = [14,115,10,{},'letra']
 let notasPrimeraUnidad = [14,115,10];
-les listaDeCosasQuehacer = [
 
-   /*  "Salir en bici",
+
+
+let listaDeCosasQuehacer = [
+
+   /* Podria ser asi: 
+   
+   "Salir en bici",
     "Limpiar la casa",
     "lavar la ropa",
-    "HAcer ejercicio" */
+    "HAcer ejercicio" 
+    
+    Pero se aconseja hacerlo de la siguiente manera:
+    */
 
     {
       completado: false,
@@ -22,7 +30,7 @@ les listaDeCosasQuehacer = [
     },
     {
         completado: false,
-        "HAcer ejercicio",  
+        todo:"HAcer ejercicio",  
     },
 
 ]
