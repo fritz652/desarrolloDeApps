@@ -42,12 +42,15 @@ let nuevoLibro = new Libro (
     prompt("¿El libro esta prestado?"),
 )
 
+
+
 let registrado = [
     document.write(`<p>Id: ${nuevoLibro.id} </p>`),
     document.write("<p>Título: " + nuevoLibro.titulo + "</p>"),
     document.write("<p>Año de publicación: " + nuevoLibro.año + "</p>"),
     document.write("<p>Prestado: " + nuevoLibro.prestado + "</p>"),
 ]
+
 
 
 
