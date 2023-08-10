@@ -4,3 +4,9 @@
 
 
 // Escribir un programa que solicite una clave y no continuar mientras no se introduzca la clave adecuada
+
+let password ="123456";
+
+while (password !=="123456"){
+    console.log("Ingresa el password correcto")
+}
